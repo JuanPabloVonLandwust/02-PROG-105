@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #06283D;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+main {
+    width: 640px;
+}
+
+.header {
+    background-color: #1363DF;
+    border-radius: 5px;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+}
+
+.input {
+    background-color: #47B5FF;
+    border-radius: 5px;
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.std-opt {
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.div {
+    color: #DFF6FF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+}
+
+.btn-generate {
+    background-color: #1363DF;
+    border: none;
+    color: #DFF6FF;
+    cursor: pointer;
+    padding: 10px;
+    width: 75%;
+}
+
+.output {
+    background-color: #47B5FF;
+    border-radius: 5px;
+    display: flex;
+    width: 90%;
+    height: 640px;
+    padding: 10px;
+}
+
+.success-msg {
+    background-color: green;
+    border-radius: 5px;
+    font-size: 28px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+}
+  
+.error-msg {
+    background-color: orange;
+    border-radius: 5px;
+    font-size: 28px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+}
+  
+.hidden {
+    display: none;
+}
